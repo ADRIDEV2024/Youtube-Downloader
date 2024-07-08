@@ -30,3 +30,6 @@ def open_file_dialog():
 if __name__ == "__main__":
     root = tk.Tk()
     root.withdraw()
+     
+video_url = input("Please enter a url from a Youtube video: ")
+save_directory = open_file_dialog()
