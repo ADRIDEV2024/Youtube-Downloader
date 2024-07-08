@@ -19,4 +19,10 @@ def download_Video(url, save_path):
             
      except Exception as error:
         print(error)
-    
+          
+def open_file_dialog():
+    folder = filedialog.askdirectory()
+    if folder:
+       print(f"Selected folder: {folder}")
+       
+    return folder
