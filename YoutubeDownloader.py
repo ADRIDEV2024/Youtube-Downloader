@@ -26,3 +26,7 @@ def open_file_dialog():
     if folder:
        print(f"Selected folder: {folder}")
     return folder
+     
+if __name__ == "__main__":
+    root = tk.Tk()
+    root.withdraw()
