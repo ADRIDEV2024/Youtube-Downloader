@@ -2,7 +2,7 @@ from pytube import YouTube
 import tkinter as tk
 from tkinter import filedialog
 
-def Download_Video(url, save_path):
+def download_Video(url, save_path):
      """""
      Function that get an url from a yt video,
      download that video in high resolution and 
@@ -20,7 +20,3 @@ def Download_Video(url, save_path):
      except Exception as error:
         print(error)
     
-url = ""
-save_path = "C:/User/Downloads" # Example directory path to save video
-
-Download_Video(url, save_path)
