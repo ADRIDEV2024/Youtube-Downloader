@@ -8,16 +8,14 @@ def download_Video(url, save_path):
      download that video in high resolution and 
      save the user path where store the video
      """""
-     
-     try:
-        
+   try:
         yt = YouTube(url)
         streams = yt.streams.filter(progressive=True, file_extension= "mp4")
         highest_res_stream = streams.get_highest_resolution()
         highest_res_stream.download(output_path=save_path)
         print("Video downloaded succesfully! ")
             
-     except Exception as error:
+  except Exception as error:
         print(error)
           
 def open_file_dialog():
