@@ -1,7 +1,5 @@
 # Youtube Downloader
 
-![Is-Y2mate-Safe-and-Legal-2023](https://github.com/ADRIDEV2024/Youtube-Downloader/assets/163412333/b26747c2-e09f-4fb4-9af7-6f996ba207ee)
-
 
 Con este programa podrás descargar cualquier video que desees guardar en tu PC de una manera muy rápida.He empleado Tkinter y Pytube para construir la interfaz que recibe el enlace del video solicitado y procesa internamente la url que le pasas y te devuelve ese video en un formato de extensión de descarga de tu elección(como mp4 por ejemplo).Todo lo que necesitas hacer después es saber en qué directorio guardarlo.
 
